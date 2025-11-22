@@ -10,7 +10,7 @@ The goal: build real Python fundamentals, sharpen problem-solving skills, and gr
 
 ## 🗂️ Progress Tracker
 - [x] Day 1 – Python Basics + Band Name Generator
-- [ ] Day 2
+- [x] Day 2
 - [ ] Day 3
 - [ ] ...
 - [ ] Day 100
