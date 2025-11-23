@@ -10,8 +10,8 @@ The goal: build real Python fundamentals, sharpen problem-solving skills, and gr
 
 ## 🗂️ Progress Tracker
 - [x] Day 1 – Python Basics + Band Name Generator
-- [x] Day 2
-- [ ] Day 3
+- [x] Day 2 - Understanding data types and how to manipulate strings.
+- [x] Day 3 - Control flow with if/else and conditional operators 
 - [ ] ...
 - [ ] Day 100
 
