@@ -1,77 +1,99 @@
-Day 3 – Conditionals, Logical Operators, Nesting, and Modulo
-Comparator Operators
->   Greater than  
-<   Less than  
->=  Greater than or equal to  
-<=  Less than or equal to  
-==  Equal to  
-!=  Not equal to
 
-Logical Operators
+# Day 3 – Conditionals, Logical Operators, Nesting & Modulo
+
+## Comparator Operators
+```
+
+> Greater than
+> <   Less than
+> =  Greater than or equal
+> <=  Less than or equal
+> ==  Equal to
+> !=  Not equal
+
+````
+
+## Logical Operators
+```python
 A and B     # both conditions must be true
-A or B      # at least one condition must be true
-not A       # true if A is false
-
+A or B      # at least one must be true
+not A       # true when A is false
+````
 
 Example:
 
+```python
 age = 50
 if age >= 45 and age <= 55:
     print("Free ride")
+```
 
-If / Elif / Else
+## If / Elif / Else
 
-Only one block runs in this structure.
-
+```python
 if condition:
     do_a()
 elif other_condition:
     do_b()
 else:
     do_c()
+```
 
-Nested If Statements
+Only one block is executed.
 
-Conditions inside conditions. All must be true to reach the innermost code.
+## Nested If Statements
 
+```python
 if cond1:
     if cond2:
         if cond3:
             do_something()
+```
 
-Multiple Independent If Statements
+All conditions must be true.
 
-All conditions are checked, regardless of each other.
+## Multiple Independent If Statements
 
+```python
 if cond1:
     do_a()
 if cond2:
     do_b()
 if cond3:
     do_c()
+```
 
-Modulo Operator (%)
+Each condition runs independently.
 
-Returns the remainder of a division.
+## Modulo Operator (%)
 
+Returns the remainder.
+
+```python
 6 % 2   # 0
 6 % 5   # 1
 6 % 4   # 2
 10 % 3  # 1
+```
 
-Odd or Even Check
+### Odd or Even Check
+
+```python
 num = int(input("Number: "))
 if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+```
 
-Example Project: Python Pizza Calculator
+## Example Project: Python Pizza Calculator
+
+```python
 print("Welcome to Python Pizza Deliveries!")
 
 size = input("S, M or L: ")
 pepperoni = input("Pepperoni? Y or N: ")
-cheese = input("Extra cheese? Y or N: ")
+extra_cheese = input("Extra cheese? Y or N: ")
 
 bill = 0
 
@@ -88,36 +110,35 @@ if pepperoni == "Y":
     else:
         bill += 3
 
-if cheese == "Y":
+if extra_cheese == "Y":
     bill += 1
 
 print(f"Your final bill is: ${bill}")
+```
 
-Indentation Rules
+## Indentation Rules
 
-Lines inside an if-block must be indented
-
-Parent line → child block
+* Lines inside an if-block must be indented
+* Parent line → child block
 
 Example:
 
+```python
 if 5 > 2:
     print("Yes")
+```
 
-What I Learned Today
+## What I Learned Today
 
-Comparison operators
+* Comparison operators
+* Logical operators (and, or, not)
+* If/elif/else
+* Nested if statements
+* Multiple independent if statements
+* Modulo operator
+* Odd/even logic
+* Importance of indentation
+* Building logic-based scripts (Pizza calculator + adventure game)
 
-Logical operators (and, or, not)
-
-If/elif/else structure
-
-Nested if statements
-
-Multiple independent if statements
-
-Modulo operator and odd/even logic
-
-Importance of indentation
-
-Building logic-based scripts (Pizza calculator + adventure game)
+```
+BuiltByVision
