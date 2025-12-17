@@ -12,7 +12,7 @@ The goal: build real Python fundamentals, sharpen problem-solving skills, and gr
 - [x] Day 1 – Python Basics + Band Name Generator
 - [x] Day 2 - Understanding data types and how to manipulate strings.
 - [x] Day 3 - Control flow with if/else and conditional operators 
-- [ ] ...
+- [x] Day 4 - Practiced random number generation using the `random` module
 - [ ] Day 100
 
 Every day gets its own folder with:
@@ -39,14 +39,6 @@ https://www.udemy.com/course/100-days-of-code/learn/lecture/17841330#notes
 - PyCharm  
 - Git + GitHub  
 - VS Code (optional)
-
-### Day 4 – Randomisation and Rock-Paper-Scissors
-- Practiced random number generation using the `random` module.
-- Used lists and indexing to map selections to ASCII art.
-- Added user input validation to prevent crashes.
-- Implemented complete game logic for Rock-Paper-Scissors.
-- Organized the project into a clean folder structure with notes and code.
-
 
 ## 🧠 Mindset
 Daily reps > perfection.  
