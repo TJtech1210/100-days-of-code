@@ -13,6 +13,7 @@ The goal: build real Python fundamentals, sharpen problem-solving skills, and gr
 - [x] Day 2 - Understanding data types and how to manipulate strings.
 - [x] Day 3 - Control flow with if/else and conditional operators 
 - [x] Day 4 - Practiced random number generation using the `random` module
+- [x] Day 5 - For loops, randomisation, password generator | [Notes](day05/notes.md) | [Password Generator](day05/password_generator.py) |
 - [ ] Day 100
 
 Every day gets its own folder with:
